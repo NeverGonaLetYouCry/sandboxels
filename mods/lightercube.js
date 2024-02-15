@@ -1,13 +1,12 @@
-// Assuming behaviors is an object that contains the WALL behavior
 const behaviors = {
-  WALL: "wall"
+  POWDER: "powder", "powders"
 };
 
 // Define the element
 const elements = {
   lightercube: {
     color: ["#ffffff"],
-    behavior: behaviors.WALL, // Assuming WALL behavior is defined in the behaviors object
+    behavior: behaviors.POWDER,
     category: "solids",
     state: "solid",
     density: 265,
